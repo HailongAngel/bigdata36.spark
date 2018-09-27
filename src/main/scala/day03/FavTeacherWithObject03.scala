@@ -41,7 +41,6 @@ object FavTeacherWithObject03 {
 
     //聚合，将学科和老师联合当做key
     val reduced: RDD[((String, String), Int)] = subjectAddTeacher.reduceByKey(_+_)
-
     //计算有多少学科
     val subjects: Array[String] = reduced.map(_._1._1).distinct().collect()
 

@@ -13,7 +13,8 @@ package day03
   *     ......
   * Created by zhangjingcun on 2018/9/19 8:36.
   * */
-import java.net.URL
+import
+java.net.URL
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{HashPartitioner, Partitioner, SparkConf, SparkContext}

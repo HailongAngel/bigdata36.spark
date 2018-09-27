@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloSparkNew.iml" filepath="$PROJECT_DIR$/HelloSparkNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloSparkNew/HelloSpark.iml" filepath="$PROJECT_DIR$/../HelloSparkNew/HelloSpark.iml" />
     </modules>
   </component>
 </project>
