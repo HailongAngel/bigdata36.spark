@@ -76,7 +76,7 @@ object IPLocation {
     //      pstm.close()
     //      conn.close()
     //    })
-    reduceRDD.foreachPartition(MyUtils.data2MySQL _)
+    reduceRDD.foreachPartition(MyUtils.data2MySQL (_))
 
     //9：释放资源
     sc.stop()

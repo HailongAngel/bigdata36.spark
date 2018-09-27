@@ -31,10 +31,22 @@
       <file leaf-file-name="IpLocation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/IpLocation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="-1136">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="39" />
               <folding>
                 <element signature="e#15#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDBCDemo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/JDBCDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="e#15#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +55,8 @@
       <file leaf-file-name="MyUtils.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/MyUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="38" column="27" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -60,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Need3.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Need3.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/Need3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="155">
               <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding>
                 <element signature="e#18#57#0" expanded="true" />
@@ -95,7 +107,7 @@
       <file leaf-file-name="CombineByKeyTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/test/CombineByKeyTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-103">
+            <state relative-caret-position="116">
               <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
@@ -184,6 +196,7 @@
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/FavTeacherWithObject05.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/MyUtils.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/IpLocation.scala" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/JDBCDemo.scala" />
       </list>
     </option>
   </component>
@@ -338,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IpLocation">
+  <component name="RunManager" selected="Application.JDBCDemo">
     <configuration name="ExpertOperator" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -356,6 +369,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="HelloSparkNew" />
+      <envs />
+    </configuration>
+    <configuration name="IPLocation" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day06.IPLocation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloSpark" />
       <envs />
     </configuration>
     <configuration name="IpLocation" type="Application" factoryName="Application" temporary="true">
@@ -377,42 +409,23 @@
       <module name="HelloSparkNew" />
       <envs />
     </configuration>
-    <configuration name="Need3" type="Application" factoryName="Application" temporary="true">
+    <configuration name="JDBCDemo" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="caseTest.*" />
+          <option name="PATTERN" value="day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="caseTest.Need3" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="5000" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../HelloSparkNew" />
+      <option name="MAIN_CLASS_NAME" value="day06.JDBCDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloSparkNew" />
-      <envs />
-    </configuration>
-    <configuration name="Need4" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="caseTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="caseTest.Need4" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="3" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../HelloSparkNew" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloSparkNew" />
+      <module name="HelloSpark" />
       <envs />
     </configuration>
     <configuration name="ScalaWordCount" type="Application" factoryName="Application" temporary="true">
@@ -528,19 +541,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Need3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Need4" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExpertOperator" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IpLocation" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ExpertOperator" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IpLocation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IPLocation" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JDBCDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IpLocation" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ExpertOperator" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Need4" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Need3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JDBCDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IPLocation" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IpLocation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ExpertOperator" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +586,7 @@
       <workItem from="1537612075470" duration="71000" />
       <workItem from="1537612328971" duration="4893000" />
       <workItem from="1537843551559" duration="4708000" />
-      <workItem from="1537923736998" duration="16534000" />
+      <workItem from="1537923736998" duration="19755000" />
     </task>
     <task id="LOCAL-00001" summary="JAVA和JAVA函数式编程、JAVA本地运行的词频统计">
       <created>1537272199881</created>
@@ -593,7 +606,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72444000" />
+    <option name="totallyTimeSpent" value="75665000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -606,7 +619,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -619,7 +631,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29384965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29399142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -822,32 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/test/CombineByKeyTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/IpLocation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/MyUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/UtilRegix.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -874,10 +860,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/Need3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="155">
           <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
             <element signature="e#18#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/test/CombineByKeyTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/IpLocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1136">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/MyUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/JDBCDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="e#15#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
