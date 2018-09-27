@@ -40,13 +40,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JDBCDemo.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JDBCDemo.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/JDBCDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-19">
               <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="e#15#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomSort1.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort1.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="e#15#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomSort2.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#15#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomSort3.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-406">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#49#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomSort4.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort4.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding>
+                <element signature="e#50#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,53 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilRegix.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/UtilRegix.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Need1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/Need1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CombineByKeyTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/test/CombineByKeyTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
               <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpertOperator.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/test/ExpertOperator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-              <folding>
-                <element signature="e#14#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FavTeacherWithObject05.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/FavTeacherWithObject05.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -197,6 +203,10 @@
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/MyUtils.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/IpLocation.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/JDBCDemo.scala" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort1.scala" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort2.scala" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort3.scala" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort4.scala" />
       </list>
     </option>
   </component>
@@ -351,15 +361,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDBCDemo">
-    <configuration name="ExpertOperator" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.CustomSort1">
+    <configuration name="CustomSort1" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="test.ExpertOperator" />
+      <option name="MAIN_CLASS_NAME" value="day06.CustomSort1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
@@ -368,7 +378,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloSparkNew" />
+      <module name="HelloSpark" />
       <envs />
     </configuration>
     <configuration name="IPLocation" type="Application" factoryName="Application" temporary="true">
@@ -541,19 +551,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ExpertOperator" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
-      <item index="2" class="java.lang.String" itemvalue="Application.IpLocation" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IPLocation" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JDBCDemo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IpLocation" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IPLocation" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JDBCDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CustomSort1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JDBCDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IPLocation" />
-        <item index="2" class="java.lang.String" itemvalue="Application.IpLocation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ExpertOperator" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CustomSort1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JDBCDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IPLocation" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IpLocation" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ScalaWordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +596,7 @@
       <workItem from="1537612075470" duration="71000" />
       <workItem from="1537612328971" duration="4893000" />
       <workItem from="1537843551559" duration="4708000" />
-      <workItem from="1537923736998" duration="19755000" />
+      <workItem from="1537923736998" duration="22189000" />
     </task>
     <task id="LOCAL-00001" summary="JAVA和JAVA函数式编程、JAVA本地运行的词频统计">
       <created>1537272199881</created>
@@ -606,7 +616,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75665000" />
+    <option name="totallyTimeSpent" value="78099000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -829,7 +839,7 @@
         <state relative-caret-position="227">
           <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding>
-            <element signature="e#14#53#0" expanded="true" />
+            <element signature="e#14#53#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,6 +910,46 @@
           <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="e#15#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#49#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="e#50#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
