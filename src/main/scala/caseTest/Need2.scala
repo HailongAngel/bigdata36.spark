@@ -26,7 +26,7 @@ object Need2 {
      //取得返回值
     val response = logs.map(log => log.responseCode)
     //进行分组聚合
-    val responseCount = response.map((_,1)).reduceByKey(_+_).groupBy(_._1)
+    val responseCount = response.map((_,1)).reduceByKey(_+_)
     println(s"个数为${responseCount.collect().toBuffer}")
 
 
