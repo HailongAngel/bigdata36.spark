@@ -57,3 +57,4 @@ case class User2(val id:Long, val name:String, val fv:Int, val age:Int) extends 
     s"User:($id, $name, $fv, $age)"
   }
 }
+
