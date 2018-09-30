@@ -2,7 +2,7 @@ package day08
 
 import day06.MyUtils
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.{DataFrame, SparkSession}
+import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
 
 /**
   *     //Builder 是 SparkSession 的构造器。 通过 Builder, 可以添加各种配置。
@@ -20,7 +20,7 @@ object SQLPLocation {
 
     //整理IP规则数据
     import spark.implicits._
-    val tpRDDs  = ipRulesLine.map(line => {
+    val tpRDDs: Dataset[(Long, Long, String)] = ipRulesLine.map(line => {
       val fields = line.split("[|]")
       val startNum = fields(2).toLong
       val endNum = fields(3).toLong

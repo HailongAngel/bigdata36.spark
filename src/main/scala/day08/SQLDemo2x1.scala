@@ -22,7 +22,7 @@ object SQLDemo2x1 {
     //    val sqlContext = new SQLContext(sc)
 
     //在Spark 2.x Sql的编程API的入口是Spark Serssion
-    val session = SparkSession.builder()
+    val session: SparkSession = SparkSession.builder()
       .appName("SQLDemo2x1")
       .master("local[*]").getOrCreate()
 

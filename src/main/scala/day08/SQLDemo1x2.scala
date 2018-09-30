@@ -4,7 +4,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types._
-import org.apache.spark.sql.{Row, SQLContext}
+import org.apache.spark.sql.{Dataset, Row, SQLContext}
 
 object SQLDemo1x2 {
   def main(args: Array[String]): Unit = {
@@ -47,7 +47,7 @@ object SQLDemo1x2 {
     //排序
     //导入隐式转换，使用lamdba表达式
     import sqlContext.implicits._
-    val result = selected.orderBy($"fv"desc,$"age"asc)
+    val result: Dataset[Row] = selected.orderBy($"fv"desc,$"age"asc)
     //触发Action
     result.show()
     //释放资源
