@@ -52,13 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyNetworkTotalWordCountV2.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyNetworkTotalWordCountV2.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkTotalWordCountV2.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1044">
               <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding>
                 <element signature="e#145#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnlineHotItems.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/OnlineHotItems.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1218">
+              <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+              <folding>
+                <element signature="e#15#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day02/JavaWordCount.java" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day01/ScalaWordCount.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day01/JavaWordCountLocal.java" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day02/JavaWordCountLocal.java" />
@@ -162,6 +173,7 @@
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkWordCount.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkTotalWordCount.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkTotalWordCountV2.scala" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/OnlineHotItems.scala" />
       </list>
     </option>
   </component>
@@ -326,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyNetworkWordCount">
+  <component name="RunManager" selected="Application.OnlineHotItems">
     <configuration name="CsvDataSource" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -335,25 +347,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="day09.CsvDataSource" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloSpark" />
-      <envs />
-    </configuration>
-    <configuration name="JdbcDataSource" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="day09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="day09.JdbcDataSource" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
@@ -411,6 +404,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="day10.MyNetworkWordCount" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloSpark" />
+      <envs />
+    </configuration>
+    <configuration name="OnlineHotItems" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day10.OnlineHotItems" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
@@ -516,19 +528,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.JdbcDataSource" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CsvDataSource" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyNetworkWordCount" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCount" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCountV2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CsvDataSource" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyNetworkWordCount" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCount" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCountV2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.OnlineHotItems" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MyNetworkWordCount" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCountV2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCount" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CsvDataSource" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JdbcDataSource" />
+        <item index="0" class="java.lang.String" itemvalue="Application.OnlineHotItems" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MyNetworkWordCount" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCountV2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyNetworkTotalWordCount" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CsvDataSource" />
       </list>
     </recent_temporary>
   </component>
@@ -574,7 +586,7 @@
       <workItem from="1538874472307" duration="612000" />
       <workItem from="1538905052880" duration="1363000" />
       <workItem from="1538958960773" duration="9356000" />
-      <workItem from="1538985246419" duration="4362000" />
+      <workItem from="1538985246419" duration="6370000" />
     </task>
     <task id="LOCAL-00001" summary="JAVA和JAVA函数式编程、JAVA本地运行的词频统计">
       <created>1537272199881</created>
@@ -594,7 +606,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145403000" />
+    <option name="totallyTimeSpent" value="147411000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -607,7 +619,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -620,7 +631,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41116172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24409871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -659,13 +670,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/Need4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../maven/apache-maven-3.3.9/respository/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/SparkContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -1021,6 +1025,16 @@
           <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
             <element signature="e#145#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/OnlineHotItems.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
