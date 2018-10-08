@@ -13,7 +13,7 @@ object DSLWordCount {
     Logger.getLogger("org.apache.spark").setLevel(Level.OFF)
 
     //在Spark 2.x Sql的编程API的入口是Spark Serssion
-    val spark = SparkSession.builder().appName("SQLWordCount").master("local[*]").getOrCreate()
+    val spark: SparkSession = SparkSession.builder().appName("SQLWordCount").master("local[*]").getOrCreate()
 
     //指定以后从哪里读取数据，DataSet返回的是有一列的DataFrame
     val lines: Dataset[String] = spark.read.textFile(filePath)

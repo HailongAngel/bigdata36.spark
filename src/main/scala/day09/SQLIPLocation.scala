@@ -14,7 +14,7 @@ object SQLIPLocation {
   val accessFilePath = "D:\\data\\spark\\in\\access.log"
   def main(args: Array[String]): Unit = {
   Logger.getLogger("org.apache.spark").setLevel(Level.OFF)
-    val spark = SparkSession.builder().appName("SQLIPLocation").master("local").getOrCreate()
+    val spark: SparkSession = SparkSession.builder().appName("SQLIPLocation").master("local").getOrCreate()
     //读取IP资源库
     val ipRulesLines = spark.read.textFile(rulesFilePath)
     //整理IP规则
