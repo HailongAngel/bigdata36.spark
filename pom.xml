@@ -55,6 +55,12 @@
             <artifactId>spark-sql_2.11</artifactId>
             <version>${spark.version}</version>
         </dependency>
+        <!-- 导入配置文件读取依赖 -->
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.3.3</version>
+        </dependency>
         <!-- 导入spark streaming的依赖-->
         <dependency>
             <groupId>org.apache.spark</groupId>

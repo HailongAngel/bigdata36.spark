@@ -21,7 +21,7 @@ object MyNetworkTotalWordCount {
     val lines: ReceiverInputDStream[String] = ssc.socketTextStream("hadoop01",5678)
 
     val result: DStream[(String, Int)] = lines.flatMap(_.split(" ")).map((_,1))
-
+  //Option的作用是，如果有的话就是Some，没有的话就是NULL
     val updateStateFunc = (currValues:Seq[Int], preValues:Option[Int])=>{
       val currentTotal = currValues.sum
       val totalValues = preValues.getOrElse(0)
