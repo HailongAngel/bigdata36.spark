@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91af618-5770-4eec-ba6b-7f10b19ba630" name="Default" comment="JAVA和JAVA函数式编程、JAVA本地运行的词频统计">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ConsumerApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ProducerApi.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day01/JavaWordCount.java" afterPath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day01/JavaWordCount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day02/JavaLambdaWC.java" afterPath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day02/JavaLambdaWC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day02/JavaWordCountLocal.java" afterPath="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day02/JavaWordCountLocal.java" />
@@ -28,43 +30,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ParquetDataSource.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day09/ParquetDataSource.scala">
+      <file leaf-file-name="MyNetworkWordCountMysqlState.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysqlState.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="2349">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CsvDataSource.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day09/CsvDataSource.scala">
+      <file leaf-file-name="MyNetworkWordCountMysql.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysql.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HiveOnSpark.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day09/HiveOnSpark.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyNetworkTotalWordCountV2.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkTotalWordCountV2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="638">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#145#184#0" expanded="true" />
+                <element signature="e#15#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerApi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ProducerApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1392">
+              <caret line="48" column="60" lean-forward="true" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ConsumerApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#569#585#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SSCDirectKafka010.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day12/SSCDirectKafka010.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1015">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="e#108#163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,65 +102,11 @@
       <file leaf-file-name="MyNetworkWordCountDataFrame.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountDataFrame.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-641">
+            <state relative-caret-position="638">
               <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="e#15#54#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyNetworkWordCountMysql.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysql.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyNetworkWordCountMysqlState.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysqlState.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2212">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/resources/application.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLIPLocation.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day09/SQLIPLocation.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -141,8 +116,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -163,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/package.scala" />
-        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day02/FavTeacher1.scala" />
-        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/test/CombineByKeyTest.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/FavTeacherWithObject2.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/FavTeacherWithObject.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/FavTeacherWithObject03.scala" />
@@ -210,10 +182,13 @@
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/resources/hive-site.xml" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/resources/hdfs-site.xml" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountDataFrame.scala" />
-        <option value="$PROJECT_DIR$/../HelloSparkNew/pom.xml" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysql.scala" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysqlState.scala" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/pom.xml" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ConsumerApi.java" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ProducerApi.java" />
+        <option value="$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day12/SSCDirectKafka010.scala" />
       </list>
     </option>
   </component>
@@ -280,17 +255,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HelloSparkNew" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloSparkNew" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloSparkNew" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloSparkNew" type="462c0819:PsiDirectoryNode" />
-              <item name="skt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloSparkNew" type="b2602c69:ProjectViewProjectNode" />
@@ -302,6 +275,21 @@
               <item name="HelloSparkNew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloSparkNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloSparkNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloSparkNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloSparkNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="day12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloSparkNew" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +311,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="day09" type="462c0819:PsiDirectoryNode" />
+              <item name="day06" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloSparkNew" type="b2602c69:ProjectViewProjectNode" />
@@ -347,15 +335,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="day12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -396,34 +381,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyNetworkWordCountMysqlState">
-    <configuration name="HiveOnSpark" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.SSCDirectKafka010">
+    <configuration name="ConsumerApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="day09.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="day09.HiveOnSpark" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloSpark" />
-      <envs />
-    </configuration>
-    <configuration name="MyNetworkWordCountDataFrame" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="day11.MyNetworkWordCountDataFrame" />
+      <option name="MAIN_CLASS_NAME" value="day12.ConsumerApi" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
@@ -473,14 +439,33 @@
       <module name="HelloSpark" />
       <envs />
     </configuration>
-    <configuration name="OnlineHotItems" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ProducerApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="day10.*" />
+          <option name="PATTERN" value="day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="day10.OnlineHotItems" />
+      <option name="MAIN_CLASS_NAME" value="day12.ProducerApi" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HelloSpark" />
+      <envs />
+    </configuration>
+    <configuration name="SSCDirectKafka010" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="day12.SSCDirectKafka010" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HelloSparkNew" />
@@ -586,19 +571,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.OnlineHotItems" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HiveOnSpark" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyNetworkWordCountDataFrame" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysql" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysqlState" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysql" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysqlState" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ProducerApi" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConsumerApi" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SSCDirectKafka010" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysqlState" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysql" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyNetworkWordCountDataFrame" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HiveOnSpark" />
-        <item index="4" class="java.lang.String" itemvalue="Application.OnlineHotItems" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SSCDirectKafka010" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConsumerApi" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ProducerApi" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysqlState" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MyNetworkWordCountMysql" />
       </list>
     </recent_temporary>
   </component>
@@ -646,7 +631,10 @@
       <workItem from="1538958960773" duration="9356000" />
       <workItem from="1538985246419" duration="10086000" />
       <workItem from="1539010659259" duration="756000" />
-      <workItem from="1539051537991" duration="10573000" />
+      <workItem from="1539051537991" duration="10674000" />
+      <workItem from="1539153232803" duration="1988000" />
+      <workItem from="1539183960622" duration="1378000" />
+      <workItem from="1539217838316" duration="3526000" />
     </task>
     <task id="LOCAL-00001" summary="JAVA和JAVA函数式编程、JAVA本地运行的词频统计">
       <created>1537272199881</created>
@@ -666,7 +654,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162456000" />
+    <option name="totallyTimeSpent" value="169449000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -679,6 +667,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -691,10 +680,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41116172" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -730,34 +719,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/test/CombineByKeyTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort4.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/FavTeacherWithObject.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/NeedAllWithTeacher.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/caseTest/LogSorting.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -870,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort3.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day03/FavTeacherWithObject2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -947,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkTotalWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -965,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,9 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
           <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,39 +964,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11.scala">
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11.scala" />
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/HelloSparkNew.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day06/CustomSort3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkTotalWordCountV2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
+        <state relative-caret-position="551">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="e#145#184#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day10/MyNetworkTotalWordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountDataFrame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-641">
+        <state relative-caret-position="638">
           <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="e#15#54#0" expanded="true" />
@@ -1066,30 +1013,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/resources/application.conf">
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysqlState.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="2349">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysql.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="638">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#15#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day11/MyNetworkWordCountMysqlState.scala">
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2212">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="290">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ConsumerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
-            <element signature="e#14#43#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#569#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/scala/day12/SSCDirectKafka010.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#108#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloSparkNew/src/main/java/day12/ProducerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="48" column="60" lean-forward="true" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
