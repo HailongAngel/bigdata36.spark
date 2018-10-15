@@ -58,6 +58,25 @@
             <version>${kafka.version}</version>
         </dependency>
 
+        <!--  导入redis client的依赖包 -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.38</version>
+        </dependency>
+        <!-- 导入配置文件读取依赖 -->
+        <dependency>
+            <groupId>com.typesafe</groupId>
+            <artifactId>config</artifactId>
+            <version>1.3.3</version>
+        </dependency>
+
         <!-- 指定kafka-client API的版本-->
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -70,6 +89,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.38</version>
         </dependency>
+
         <!-- 导入spark sql的依赖 -->
         <dependency>
             <groupId>org.apache.spark</groupId>
